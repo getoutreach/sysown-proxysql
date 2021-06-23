@@ -8,7 +8,7 @@ COPY . /var/proxysql
 
 
 WORKDIR /var/proxysql
-RUN make debug
+RUN make 
 RUN make install
 
 FROM debian:stretch
